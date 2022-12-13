@@ -1,0 +1,23 @@
+@tailwind base;
+h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+    .primary-color {
+        @apply bg-gradient-to-br from-purple-300 to-pink-300 via-cyan-200
+    }
+}
